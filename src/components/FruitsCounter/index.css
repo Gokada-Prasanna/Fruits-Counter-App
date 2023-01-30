@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.bgContainer {
+  background-color: #ffd569;
+
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.innerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+  height: 90%;
+  width: 70%;
+  border-radius: 20px;
+}
+.cardContainer {
+  display: flex;
+  height: 50%;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.bananaCount,
+.mangoCount {
+  color: #ffd569;
+}
+.button {
+  width: 30%;
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 6px;
+  border: 0px;
+  height: 30px;
+}
+.image {
+  width: 55%;
+}
+
+@media (max-width: 767px) {
+  .cardContainer {
+    flex-direction: column;
+  }
+}
